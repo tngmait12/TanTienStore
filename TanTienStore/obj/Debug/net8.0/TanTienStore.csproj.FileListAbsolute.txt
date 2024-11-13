@@ -166,3 +166,4 @@ D:\MVC\TanTienStore\TanTienStore\bin\Debug\net8.0\runtimes\browser\lib\net8.0\Sy
 D:\MVC\TanTienStore\TanTienStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\MVC\TanTienStore\TanTienStore\obj\Debug\net8.0\TanTienStore.csproj.AssemblyReference.cache
 D:\MVC\TanTienStore\TanTienStore\obj\Debug\net8.0\TanTienS.E539BC9D.Up2Date
+D:\MVC\TanTienStore\TanTienStore\obj\Debug\net8.0\TanTienStore.sourcelink.json
