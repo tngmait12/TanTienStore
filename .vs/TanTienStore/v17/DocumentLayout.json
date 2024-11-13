@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MVC\\TanTienStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\controllers\\loaisanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\controllers\\loaisanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\loaisanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\loaisanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\loaisanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\loaisanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\loaisanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\loaisanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\models\\loaisanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\models\\loaisanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\wwwroot\\assets\\libs\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\wwwroot\\assets\\libs\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 297,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "TanTienStore\\Data\\DataContext.cs",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Data\\DataContext.cs",
+              "RelativeToolTip": "TanTienStore\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:28:12.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TanTienStore\\Views\\LoaiSanPham\\Edit.cshtml",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Edit.cshtml",
+              "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T04:16:00.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoaiSanPhamModel.cs",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Models\\LoaiSanPhamModel.cs",
+              "RelativeDocumentMoniker": "TanTienStore\\Models\\LoaiSanPhamModel.cs",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Models\\LoaiSanPhamModel.cs",
+              "RelativeToolTip": "TanTienStore\\Models\\LoaiSanPhamModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:09:57.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Create.cshtml",
+              "RelativeDocumentMoniker": "TanTienStore\\Views\\LoaiSanPham\\Create.cshtml",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Create.cshtml",
+              "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T02:59:46.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "TanTienStore\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "TanTienStore\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T02:58:54.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TanTienStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TanTienStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T02:58:26.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\wwwroot\\assets\\libs\\css\\style.css",
+              "RelativeDocumentMoniker": "TanTienStore\\wwwroot\\assets\\libs\\css\\style.css",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\wwwroot\\assets\\libs\\css\\style.css",
+              "RelativeToolTip": "TanTienStore\\wwwroot\\assets\\libs\\css\\style.css",
+              "ViewState": "AgIAAPMHAAAAAAAAAAAkwBIIAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T02:51:33.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TanTienStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TanTienStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T02:24:41.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
+              "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T02:17:05.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoaiSanPhamController.cs",
+              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Controllers\\LoaiSanPhamController.cs",
+              "RelativeDocumentMoniker": "TanTienStore\\Controllers\\LoaiSanPhamController.cs",
+              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Controllers\\LoaiSanPhamController.cs",
+              "RelativeToolTip": "TanTienStore\\Controllers\\LoaiSanPhamController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwGMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:09:20.905Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
