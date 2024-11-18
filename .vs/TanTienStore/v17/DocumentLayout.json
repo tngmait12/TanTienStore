@@ -1,58 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\MVC\\TanTienStore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\controllers\\loaisanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\controllers\\loaisanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\mvc\\tantienstore\\tantienstore\\views\\loaisanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\loaisanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\TanTienStore\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 297,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
-              "RelativeDocumentMoniker": "TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
-              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
-              "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T13:37:17.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoaiSanPhamController.cs",
-              "DocumentMoniker": "D:\\MVC\\TanTienStore\\TanTienStore\\Controllers\\LoaiSanPhamController.cs",
-              "RelativeDocumentMoniker": "TanTienStore\\Controllers\\LoaiSanPhamController.cs",
-              "ToolTip": "D:\\MVC\\TanTienStore\\TanTienStore\\Controllers\\LoaiSanPhamController.cs",
-              "RelativeToolTip": "TanTienStore\\Controllers\\LoaiSanPhamController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:35:41.142Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

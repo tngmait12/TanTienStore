@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TanTienStore.Models;
@@ -12,8 +13,8 @@ namespace TanTienStore.Controllers
 		{
 			_logger = logger;
 		}
-
-		public IActionResult Index()
+        [AllowAnonymous]
+        public IActionResult Index()
 		{
 			return View();
 		}

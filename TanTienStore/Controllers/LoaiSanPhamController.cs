@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TanTienStore.Data;
 using TanTienStore.Models;
@@ -12,6 +13,7 @@ namespace TanTienStore.Controllers
         {
             _dataContext = context;
         }
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _dataContext.LoaiSanPhams.OrderByDescending(p => p.LoaiSPId).ToListAsync());
