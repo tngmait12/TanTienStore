@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "TanTienStore\\Views\\SanPham\\Delete.cshtml",
               "ToolTip": "D:\\Workspace\\PhatTrienWeb\\demo_pttkhttt\\TanTienStore\\TanTienStore\\Views\\SanPham\\Delete.cshtml",
               "RelativeToolTip": "TanTienStore\\Views\\SanPham\\Delete.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-19T02:58:13.97Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\SanPham\\Details.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:49:38.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:49:38.15Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\SanPham\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:45:18.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:45:18.716Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\SanPham\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:40:11.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:40:11.396Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\SanPham\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:36:38.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:36:38.12Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:34:55.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:34:55.9Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Create.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:33:42.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:33:42.681Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:30:10.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:30:10.254Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:27:06.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:27:06.095Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "TanTienStore\\Views\\LoaiSanPham\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:26:46.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T02:26:46.635Z"
             }
           ]
         }
