@@ -1,123 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\TanTienStore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\tantienstore\\tantienstore\\views\\administration\\manageuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\administration\\manageuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\tantienstore\\tantienstore\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\tantienstore\\tantienstore\\models\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\models\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\tantienstore\\tantienstore\\models\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\models\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|d:\\tantienstore\\tantienstore\\views\\administration\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{075CCF39-05B2-48B1-90CF-BB74C3411AFF}|TanTienStore\\TanTienStore.csproj|solutionrelative:tantienstore\\views\\administration\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 244,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManageUserRoles.cshtml",
-              "DocumentMoniker": "D:\\TanTienStore\\TanTienStore\\Views\\Administration\\ManageUserRoles.cshtml",
-              "RelativeDocumentMoniker": "TanTienStore\\Views\\Administration\\ManageUserRoles.cshtml",
-              "ToolTip": "D:\\TanTienStore\\TanTienStore\\Views\\Administration\\ManageUserRoles.cshtml",
-              "RelativeToolTip": "TanTienStore\\Views\\Administration\\ManageUserRoles.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T04:06:04.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRolesViewModel.cs",
-              "DocumentMoniker": "D:\\TanTienStore\\TanTienStore\\Models\\UserRolesViewModel.cs",
-              "RelativeDocumentMoniker": "TanTienStore\\Models\\UserRolesViewModel.cs",
-              "ToolTip": "D:\\TanTienStore\\TanTienStore\\Models\\UserRolesViewModel.cs",
-              "RelativeToolTip": "TanTienStore\\Models\\UserRolesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T04:05:03.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRoleViewModel.cs",
-              "DocumentMoniker": "D:\\TanTienStore\\TanTienStore\\Models\\UserRoleViewModel.cs",
-              "RelativeDocumentMoniker": "TanTienStore\\Models\\UserRoleViewModel.cs",
-              "ToolTip": "D:\\TanTienStore\\TanTienStore\\Models\\UserRoleViewModel.cs",
-              "RelativeToolTip": "TanTienStore\\Models\\UserRoleViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T04:04:47.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "D:\\TanTienStore\\TanTienStore\\Views\\Administration\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "TanTienStore\\Views\\Administration\\EditUser.cshtml",
-              "ToolTip": "D:\\TanTienStore\\TanTienStore\\Views\\Administration\\EditUser.cshtml",
-              "RelativeToolTip": "TanTienStore\\Views\\Administration\\EditUser.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAowEoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T03:37:28.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdministrationController.cs",
-              "DocumentMoniker": "D:\\TanTienStore\\TanTienStore\\Controllers\\AdministrationController.cs",
-              "RelativeDocumentMoniker": "TanTienStore\\Controllers\\AdministrationController.cs",
-              "ToolTip": "D:\\TanTienStore\\TanTienStore\\Controllers\\AdministrationController.cs",
-              "RelativeToolTip": "TanTienStore\\Controllers\\AdministrationController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAA3wK8BAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:32:38.747Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 113,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
