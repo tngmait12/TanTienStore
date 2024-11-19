@@ -294,7 +294,7 @@
                                             <a class="nav-link" asp-controller="LoaiSanPham">Loại Sản phẩm</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/data-tables.html">Data Tables</a>
+                                            <a class="nav-link" asp-controller="SanPham">Sản Phẩm</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -448,7 +448,7 @@
         <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <partial name="_NotificationPartial"/>
-                @RenderBody();
+                @RenderBody()
             </div>
             <!-- ============================================================== -->
             <!-- footer -->

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MVC\\TanTienStore\\TanTienStore\\TanTienStore.csproj": {}
+    "D:\\Workspace\\PhatTrienWeb\\demo_pttkhttt\\TanTienStore\\TanTienStore\\TanTienStore.csproj": {}
   },
   "projects": {
-    "D:\\MVC\\TanTienStore\\TanTienStore\\TanTienStore.csproj": {
+    "D:\\Workspace\\PhatTrienWeb\\demo_pttkhttt\\TanTienStore\\TanTienStore\\TanTienStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MVC\\TanTienStore\\TanTienStore\\TanTienStore.csproj",
+        "projectUniqueName": "D:\\Workspace\\PhatTrienWeb\\demo_pttkhttt\\TanTienStore\\TanTienStore\\TanTienStore.csproj",
         "projectName": "TanTienStore",
-        "projectPath": "D:\\MVC\\TanTienStore\\TanTienStore\\TanTienStore.csproj",
-        "packagesPath": "C:\\Users\\tongm\\.nuget\\packages\\",
-        "outputPath": "D:\\MVC\\TanTienStore\\TanTienStore\\obj\\",
+        "projectPath": "D:\\Workspace\\PhatTrienWeb\\demo_pttkhttt\\TanTienStore\\TanTienStore\\TanTienStore.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\PhatTrienWeb\\demo_pttkhttt\\TanTienStore\\TanTienStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tongm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

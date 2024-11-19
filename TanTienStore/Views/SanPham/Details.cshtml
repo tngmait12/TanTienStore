@@ -1,0 +1,58 @@
+﻿@model TanTienStore.Models.SanPhamModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid  dashboard-content">
+    <h1>Chi Tiết</h1>
+
+    <div>
+        <h4>Sản Phẩm</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                Tên Sản Phẩm:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TenSanPham)
+            </dd>
+            <dt class="col-sm-2">
+                Đơn Vị Tính: 
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DonViTinh)
+            </dd>
+            <dt class="col-sm-2">
+                Giá Bán:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.GiaBan)
+            </dd>
+            <dt class="col-sm-2">
+                Loại Sản Phẩm:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.LoaiSanPham.Name)
+            </dd>
+            <dt class="col-sm-2">
+                Hình Ảnh:
+            </dt>
+            <dd class="col-sm-10">
+                <img src="~/assets/images/@Model.HinhAnh" style="height: 200px; width: 400px; object-fit: contain" />
+            </dd>
+            <dt class="col-sm-2">
+                Số Lượng:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.SoLuong)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@Model?.MaSP">Cập Nhật</a> |
+        <a class="btn btn-success btn-sm" asp-action="Index">Trở về</a>
+    </div>
+</div>
+
+

@@ -17,59 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TanTienStore
 build_property.RootNamespace = TanTienStore
-build_property.ProjectDir = D:\MVC\TanTienStore\TanTienStore\
+build_property.ProjectDir = D:\Workspace\PhatTrienWeb\demo_pttkhttt\TanTienStore\TanTienStore\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\MVC\TanTienStore\TanTienStore
+build_property.MSBuildProjectDirectory = D:\Workspace\PhatTrienWeb\demo_pttkhttt\TanTienStore\TanTienStore
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/Home/Index.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/Home/Privacy.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/LoaiSanPham/Create.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/LoaiSanPham/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/LoaiSanPham/Edit.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/LoaiSanPham/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/LoaiSanPham/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/LoaiSanPham/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/LoaiSanPham/Index.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/LoaiSanPham/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/SanPham/Index.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/SanPham/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/SanPham/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/SanPham/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/SanPham/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/SanPham/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/Shared/Error.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/Shared/_NotificationPartial.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/Shared/_NotificationPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/_ViewImports.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/_ViewStart.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC/TanTienStore/TanTienStore/Views/Shared/_Layout.cshtml]
+[D:/Workspace/PhatTrienWeb/demo_pttkhttt/TanTienStore/TanTienStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tmfj2cb2jg

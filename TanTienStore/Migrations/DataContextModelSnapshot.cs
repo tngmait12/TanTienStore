@@ -31,11 +31,12 @@ namespace TanTienStore.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("LoaiSPId");
 
-                    b.ToTable("loaiSanPhams");
+                    b.ToTable("LoaiSanPhams");
                 });
 
             modelBuilder.Entity("TanTienStore.Models.SanPhamModel", b =>
@@ -51,30 +52,28 @@ namespace TanTienStore.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("GiaBan")
-                        .HasColumnType("decimal(18, 2)");
+                        .HasColumnType("decimal(8, 2)");
 
-                    b.Property<decimal>("GiaNhap")
-                        .HasColumnType("decimal(18, 2)");
-
-                    b.Property<string>("Image")
+                    b.Property<string>("HinhAnh")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("LoaiSanPhamId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Quantity")
+                    b.Property<int>("SoLuong")
                         .HasColumnType("int");
 
                     b.Property<string>("TenSanPham")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("MaSP");
 
                     b.HasIndex("LoaiSanPhamId");
 
-                    b.ToTable("sanPhams");
+                    b.ToTable("SanPhams");
                 });
 
             modelBuilder.Entity("TanTienStore.Models.SanPhamModel", b =>

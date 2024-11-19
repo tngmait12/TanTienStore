@@ -1,0 +1,28 @@
+﻿@model TanTienStore.Models.LoaiSanPhamModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid  dashboard-content">
+    <h1>Chi tiết</h1>
+
+    <div>
+        <h4>Loại Sản Phẩm</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                Tên Loại Sản Phẩm:
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@Model?.LoaiSPId">Cập nhật</a> |
+        <a class="btn btn-success btn-sm" asp-action="Index">Trở về</a>
+    </div>
+</div>
+
+

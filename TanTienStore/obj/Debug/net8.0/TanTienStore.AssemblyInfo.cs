@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TanTienStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ed71c1af0a45dcbeca7cfe1b01c39ed1e7b1206")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a885c88c3ef179e9e3fcc14ee27bdf423919227")]
 [assembly: System.Reflection.AssemblyProductAttribute("TanTienStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TanTienStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
