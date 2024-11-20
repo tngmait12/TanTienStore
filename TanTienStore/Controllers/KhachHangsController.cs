@@ -1,14 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using TVA_KhachHang.Data;
-using TVA_KhachHang.Models;
+using TanTienStore.Data;
+using TanTienStore.Helper;
+using TanTienStore.Models;
 
-namespace TVA_KhachHang.Controllers
+namespace TanTienStore.Controllers
 {
     public class KhachHangsController : Controller
     {
