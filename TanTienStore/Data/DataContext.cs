@@ -9,5 +9,6 @@ namespace TanTienStore.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options){}
         public DbSet<SanPhamModel> SanPhams { get; set; }
         public DbSet<LoaiSanPhamModel> LoaiSanPhams { get; set; }
+        public DbSet<KhachHangModel> KhachHang { get; set; }
     }
 }

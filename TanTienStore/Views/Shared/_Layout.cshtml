@@ -306,12 +306,15 @@
                                 <div id="submenu-5" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" asp-controller="LoaiSanPham">Loại Sản phẩm</a>
+                                            <a class="nav-link" asp-action="Index" asp-controller="LoaiSanPham">Loại Sản phẩm</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" asp-controller="SanPham">Sản Phẩm</a>
+                                            <a class="nav-link" asp-action="Index" asp-controller="SanPham">Sản Phẩm</a>
                                         </li>
-                                        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-action="Index" asp-controller="KhachHangs">Khách hàng</a>
+                                        </li>
+                                        @if (SignInManager.IsSignedIn(User) @* && User.IsInRole("Admin") *@)
                                         {
                                             <li class="nav-item">
                                                 <a class="nav-link" asp-action="ListRoles" asp-controller="Administration">Roles</a>

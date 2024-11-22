@@ -13,9 +13,9 @@ namespace TanTienStore.Controllers
 {
     public class KhachHangsController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly DataContext _context;
 
-        public KhachHangsController(AppDbContext context)
+        public KhachHangsController(DataContext context)
         {
             _context = context;
         }
@@ -56,7 +56,7 @@ namespace TanTienStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create( KhachHang khachHang)
+        public async Task<IActionResult> Create(KhachHangModel khachHang)
         {
             
                 _context.Add(khachHang);
@@ -87,7 +87,7 @@ namespace TanTienStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaKH,Ho,TenDem,Ten,GioiTinh,DiaChi,SDT,DiemTichLuy")] KhachHang khachHang)
+        public async Task<IActionResult> Edit(int id, [Bind("MaKH,Ho,TenDem,Ten,GioiTinh,DiaChi,SDT,DiemTichLuy")] KhachHangModel khachHang)
         {
             
             if (id != khachHang.MaKH)
