@@ -42,7 +42,7 @@ namespace TanTienStore.Controllers
                     IdentityResult result = await _roleManager.CreateAsync(identityRole);
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Administration");
+                        return RedirectToAction("ListRoles", "Administration");
                     }
                     foreach (IdentityError error in result.Errors)
                     {

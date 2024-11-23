@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KOkULSI4luZaKrEXCBWR2fxf5urWpiTouyO1vtbMN5U=",
+  "Hash": "PDRnKlXkZ5fPwzKZ8worqdp6xPr/TmmZdq9ezFRCX64=",
   "Source": "TanTienStore",
   "BasePath": "_content/TanTienStore",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\20241119094318doramon_manga.jpg"
+    },
+    {
+      "Identity": "D:\\MVC\\TanTienStore\\TanTienStore\\wwwroot\\assets\\images\\20241123190852Screenshot 2024-11-11 125756.png",
+      "SourceId": "TanTienStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MVC\\TanTienStore\\TanTienStore\\wwwroot\\",
+      "BasePath": "_content/TanTienStore",
+      "RelativePath": "assets/images/20241123190852Screenshot 2024-11-11 125756.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\20241123190852Screenshot 2024-11-11 125756.png"
     },
     {
       "Identity": "D:\\MVC\\TanTienStore\\TanTienStore\\wwwroot\\assets\\images\\avatar-1.jpg",
