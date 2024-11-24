@@ -12,8 +12,8 @@ using TanTienStore.Data;
 namespace TanTienStore.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241122012731_KhachHangModel")]
-    partial class KhachHangModel
+    [Migration("20241124115943_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -226,6 +226,70 @@ namespace TanTienStore.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("TanTienStore.Models.ChiTietHoaDonModel", b =>
+                {
+                    b.Property<int>("MaHD")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MaSP")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("DonGia")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("MaChiTietHD")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaChiTietHD"));
+
+                    b.Property<int>("SoLuong")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TongTien")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("MaHD", "MaSP");
+
+                    b.HasIndex("MaSP");
+
+                    b.ToTable("ChiTietHoaDons");
+                });
+
+            modelBuilder.Entity("TanTienStore.Models.HoaDonModel", b =>
+                {
+                    b.Property<int>("MaHD")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaHD"));
+
+                    b.Property<decimal?>("ChietKhau")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("MaKH")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("NgayLap")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PhuongThucThanhToan")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<decimal>("ThanhTien")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("TongTienTruocCK")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("MaHD");
+
+                    b.HasIndex("MaKH");
+
+                    b.ToTable("HoaDons");
+                });
+
             modelBuilder.Entity("TanTienStore.Models.KhachHangModel", b =>
                 {
                     b.Property<int>("MaKH")
@@ -375,6 +439,36 @@ namespace TanTienStore.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("TanTienStore.Models.ChiTietHoaDonModel", b =>
+                {
+                    b.HasOne("TanTienStore.Models.HoaDonModel", "HoaDon")
+                        .WithMany("ChiTietHoaDons")
+                        .HasForeignKey("MaHD")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TanTienStore.Models.SanPhamModel", "SanPham")
+                        .WithMany("ChiTietHoaDons")
+                        .HasForeignKey("MaSP")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HoaDon");
+
+                    b.Navigation("SanPham");
+                });
+
+            modelBuilder.Entity("TanTienStore.Models.HoaDonModel", b =>
+                {
+                    b.HasOne("TanTienStore.Models.KhachHangModel", "KhachHang")
+                        .WithMany()
+                        .HasForeignKey("MaKH")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("KhachHang");
+                });
+
             modelBuilder.Entity("TanTienStore.Models.SanPhamModel", b =>
                 {
                     b.HasOne("TanTienStore.Models.LoaiSanPhamModel", "LoaiSanPham")
@@ -382,6 +476,16 @@ namespace TanTienStore.Migrations
                         .HasForeignKey("LoaiSanPhamId");
 
                     b.Navigation("LoaiSanPham");
+                });
+
+            modelBuilder.Entity("TanTienStore.Models.HoaDonModel", b =>
+                {
+                    b.Navigation("ChiTietHoaDons");
+                });
+
+            modelBuilder.Entity("TanTienStore.Models.SanPhamModel", b =>
+                {
+                    b.Navigation("ChiTietHoaDons");
                 });
 #pragma warning restore 612, 618
         }

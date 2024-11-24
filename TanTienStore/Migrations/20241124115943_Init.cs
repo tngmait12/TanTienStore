@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TanTienStore.Migrations
 {
     /// <inheritdoc />
-    public partial class KhachHangModel : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -190,6 +190,30 @@ namespace TanTienStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "HoaDons",
+                columns: table => new
+                {
+                    MaHD = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MaKH = table.Column<int>(type: "int", nullable: false),
+                    NgayLap = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    TongTienTruocCK = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ChietKhau = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    ThanhTien = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    PhuongThucThanhToan = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_HoaDons", x => x.MaHD);
+                    table.ForeignKey(
+                        name: "FK_HoaDons_KhachHang_MaKH",
+                        column: x => x.MaKH,
+                        principalTable: "KhachHang",
+                        principalColumn: "MaKH",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "SanPhams",
                 columns: table => new
                 {
@@ -210,6 +234,35 @@ namespace TanTienStore.Migrations
                         column: x => x.LoaiSanPhamId,
                         principalTable: "LoaiSanPhams",
                         principalColumn: "LoaiSPId");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ChiTietHoaDons",
+                columns: table => new
+                {
+                    MaHD = table.Column<int>(type: "int", nullable: false),
+                    MaSP = table.Column<int>(type: "int", nullable: false),
+                    MaChiTietHD = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    SoLuong = table.Column<int>(type: "int", nullable: false),
+                    DonGia = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    TongTien = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ChiTietHoaDons", x => new { x.MaHD, x.MaSP });
+                    table.ForeignKey(
+                        name: "FK_ChiTietHoaDons_HoaDons_MaHD",
+                        column: x => x.MaHD,
+                        principalTable: "HoaDons",
+                        principalColumn: "MaHD",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_ChiTietHoaDons_SanPhams_MaSP",
+                        column: x => x.MaSP,
+                        principalTable: "SanPhams",
+                        principalColumn: "MaSP",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -252,6 +305,16 @@ namespace TanTienStore.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_ChiTietHoaDons_MaSP",
+                table: "ChiTietHoaDons",
+                column: "MaSP");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_HoaDons_MaKH",
+                table: "HoaDons",
+                column: "MaKH");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_SanPhams_LoaiSanPhamId",
                 table: "SanPhams",
                 column: "LoaiSanPhamId");
@@ -276,16 +339,22 @@ namespace TanTienStore.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "KhachHang");
-
-            migrationBuilder.DropTable(
-                name: "SanPhams");
+                name: "ChiTietHoaDons");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "HoaDons");
+
+            migrationBuilder.DropTable(
+                name: "SanPhams");
+
+            migrationBuilder.DropTable(
+                name: "KhachHang");
 
             migrationBuilder.DropTable(
                 name: "LoaiSanPhams");

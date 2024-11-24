@@ -1,0 +1,31 @@
+﻿@model IEnumerable<TanTienStore.Models.HoaDonModel>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã HĐ</th>
+            <th>Tên Khách Hàng</th>
+            <th>Ngày Lập</th>
+            <th>Tổng Tiền Trước CK</th>
+            <th>Chiết Khấu</th>
+            <th>Thành Tiền</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hoaDon in Model)
+        {
+            <tr>
+                <td>@hoaDon.MaHD</td>
+                <td>@hoaDon.KhachHang.MaKH</td>
+                <td>@hoaDon.NgayLap.ToString("dd/MM/yyyy")</td>
+                <td>@hoaDon.TongTienTruocCK.ToString("C")</td>
+                <td>@hoaDon.ChietKhau?.ToString("C") ?? "0"</td>
+                <td>@hoaDon.ThanhTien.ToString("C")</td>
+                <td>
+                    <a href="@Url.Action("Details", "HoaDon", new { id = hoaDon.MaHD })" class="btn btn-primary btn-sm">Chi Tiết</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

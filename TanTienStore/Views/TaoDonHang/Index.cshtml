@@ -1,0 +1,136 @@
+﻿@model IEnumerable<SanPhamModel>
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<style>
+    /* Custom input tìm kiếm */
+    .form-control {
+        border: 2px solid #0d6efd;
+        transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+        border-color: #0d6efd;
+    }
+
+    .btn-outline-primary {
+        border: 2px solid #0d6efd;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #0d6efd;
+        color: #fff;
+    }
+
+    /* Custom Style for Table */
+    .hover-row:hover {
+        background-color: #f8f9fa;
+        cursor: pointer;
+    }
+
+    .table-bordered {
+        border: 2px solid #dee2e6;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        color: #fff;
+    }
+
+    .pagination .page-item .page-link {
+        color: #0d6efd;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .pagination .page-item .page-link:hover {
+        background-color: #f8f9fa;
+        color: #0d6efd;
+    }
+</style>
+
+<!-- Tiêu đề -->
+<h1 class="text-center my-4 text-primary">Danh sách sản phẩm</h1>
+
+<!-- Nút điều hướng -->
+<div class="d-flex justify-content-end mb-3">
+    <a asp-action="Index" class="btn btn-primary" asp-controller="Cart">
+        <i class="bi bi-cart"></i> Đơn Hàng
+    </a>
+</div>
+
+<!-- Form tìm kiếm -->
+<form method="get" asp-action="Index" class="mb-4 d-flex justify-content-center">
+    <div class="input-group" style="max-width: 400px;">
+        <input type="text" name="keyword" class="form-control form-control-sm rounded-start" placeholder="Tìm sản phẩm..." value="@ViewData["Keyword"]" />
+        <button type="submit" class="btn btn-outline-primary btn-sm rounded-end">Tìm kiếm</button>
+    </div>
+</form>
+
+<!-- Bảng sản phẩm -->
+<div class="container">
+    <table class="table table-bordered table-hover text-center shadow">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Mã sản phẩm</th>
+                <th scope="col">Tên sản phẩm</th>
+                <th scope="col">Đơn vị tính</th>
+                <th scope="col">Giá Bán</th>
+                <th scope="col">Mã Danh Mục</th>
+                <th scope="col">Hình ảnh</th>
+                <th scope="col">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr class="hover-row">
+                        <td>@item.MaSP</td>
+                        <td>@item.TenSanPham</td>
+                        <td>@item.DonViTinh</td>
+                        <td>@item.GiaBan VNĐ</td>
+                        <td>@item.LoaiSanPhamId</td>
+                        <td>
+                            <img src="~/assets/images/@item.HinhAnh" width="100" class="rounded" />
+                        </td>
+                        <td>
+                            <form method="post" action="/TaoDonHang/Add" class="d-inline">
+                                <input type="hidden" name="id" value="@item.MaSP" />
+                                <input type="number" name="soluong" min="1" value="1" required class="form-control d-inline w-50" />
+                                <button type="submit" class="btn btn-success btn-sm mt-2">
+                                    <i class="bi bi-cart-plus"></i> Thêm vào giỏ
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-muted">Không tìm thấy sản phẩm nào.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Phân trang -->
+<div class="d-flex justify-content-center mt-4">
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= (int)ViewData["TotalPages"]; i++)
+            {
+                <li class="page-item @(i == (int)ViewData["PageNumber"] ? "active" : "")">
+                    <a class="page-link" href="?keyword=@ViewData["Keyword"]&pageNumber=@i">
+                        @i
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>

@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TanTienStore.Data;
 using TanTienStore.Models;
@@ -15,6 +15,14 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                     .AddEntityFrameworkStores<DataContext>();
+// Cấu hình dịch vụ Session
+builder.Services.AddDistributedMemoryCache(); // Bộ nhớ cache trong RAM
+builder.Services.AddSession(options =>
+{
+	options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn của Session
+	options.Cookie.HttpOnly = true; // Bảo mật cookie
+	options.Cookie.IsEssential = true; // Cookie cần thiết để hoạt động
+});
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -34,6 +42,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 
 var app = builder.Build();
+// Kích hoạt Middleware Session
+app.UseSession();
 
 
 // Configure the HTTP request pipeline.

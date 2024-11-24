@@ -62,6 +62,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTWFuYWdlVXNlclJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/MVC/TanTienStore/TanTienStore/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/TanTienStore/TanTienStore/Views/HoaDon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MVC/TanTienStore/TanTienStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -140,6 +148,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/MVC/TanTienStore/TanTienStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/TanTienStore/TanTienStore/Views/TaoDonHang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFvRG9uSGFuZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/TanTienStore/TanTienStore/Views/TaoDonHang/DSHoadon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFvRG9uSGFuZ1xEU0hvYWRvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MVC/TanTienStore/TanTienStore/Views/TaoDonHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFvRG9uSGFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MVC/TanTienStore/TanTienStore/Views/_ViewImports.cshtml]

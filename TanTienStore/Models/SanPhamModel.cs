@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using TanTienStore.Data.Validation;
@@ -9,8 +10,10 @@ namespace TanTienStore.Models
     {
         [Key]
         public int MaSP { get; set; }
+
         [Required(ErrorMessage = "Yêu cầu nhập tên sản phẩm"), MaxLength(100)]
         public string TenSanPham { get; set; }
+
         public string DonViTinh { get; set; }
 
         [Required(ErrorMessage = "Yêu cầu nhập giá sản phẩm")]
@@ -30,5 +33,8 @@ namespace TanTienStore.Models
         [NotMapped]
         [FileExtension]
         public IFormFile? ImageUpload { get; set; }
+
+        // Thêm thuộc tính này để biểu diễn quan hệ với ChiTietHoaDonModel
+        public ICollection<ChiTietHoaDonModel> ChiTietHoaDons { get; set; }
     }
 }

@@ -1,5 +1,4 @@
 ﻿@model RegisterViewModel
-
 @{
     ViewBag.Title = "User Registration";
     Layout = null;
@@ -41,7 +40,6 @@
     <!-- ============================================================== -->
     <!-- signup form  -->
     <!-- ============================================================== -->
-
     <form method="post" class="splash-container">
         <div asp-validation-summary="All" class="text-danger"></div>
         <div class="card">
@@ -67,11 +65,11 @@
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                 </div>
                 <div class="form-group pt-2">
-                    <button class="btn btn-block btn-primary" type="submit">Register Account</button>
+                    <button class="btn btn-block btn-primary" type="submit">Register My Account</button>
                 </div>
             </div>
             <div class="card-footer bg-white">
-                <p><a asp-action="ListUsers" asp-controller="Administration" class="text-secondary">Back to list user.</a></p>
+                <p>Already member? <a asp-action="Login" asp-controller="TaiKhoan" class="text-secondary">Login Here.</a></p>
             </div>
         </div>
     </form>

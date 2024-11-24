@@ -1,0 +1,126 @@
+﻿@model TanTienStore.Models.HoaDonModel
+
+<section class="invoice-detail">
+    <div class="container mt-4">
+        <!-- Tiêu đề -->
+        <h2 class="text-center text-primary mb-4">Chi Tiết Hóa Đơn</h2>
+
+        <!-- Thông tin hóa đơn -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Thông Tin Hóa Đơn</h4>
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-3">Mã Hóa Đơn</dt>
+                    <dd class="col-sm-9">@Model.MaHD</dd>
+
+                    <dt class="col-sm-3">Ngày Lập</dt>
+                    <dd class="col-sm-9">@Model.NgayLap.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-3">Mã Khách Hàng</dt>
+                    <dd class="col-sm-9">@Model.MaKH</dd>
+
+                    <dt class="col-sm-3">Phương Thức Thanh Toán</dt>
+                    <dd class="col-sm-9">@Model.PhuongThucThanhToan</dd>
+
+                    <dt class="col-sm-3">Chiết Khấu (%)</dt>
+                    <dd class="col-sm-9">@Model.ChietKhau %</dd> <!-- Hiển thị chiết khấu nếu có, mặc định là 0 -->
+                </dl>
+            </div>
+        </div>
+
+        <!-- Chi tiết hóa đơn -->
+        <div class="card shadow-sm">
+            <div class="card-header bg-secondary text-white">
+                <h4 class="mb-0">Chi Tiết Hóa Đơn</h4>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-hover">
+                    <thead class="table-secondary text-center">
+                        <tr>
+                            <th>Mã Sản Phẩm</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Số Lượng</th>
+                            <th>Đơn Giá</th>
+                            <th>Tổng Tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var chiTiet in Model.ChiTietHoaDons)
+                        {
+                            <tr class="text-center">
+                                <td>@chiTiet.MaSP</td>
+                                <td>@chiTiet.SanPham.TenSanPham</td>
+                                <td>@chiTiet.SoLuong</td>
+                                <td>@string.Format("{0:C}", chiTiet.DonGia)</td>
+                                <td>@string.Format("{0:C}", chiTiet.TongTien)</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="text-end fw-bold">Tổng Cộng (Trước Chiết Khấu):</td>
+                            <td class="fw-bold text-center">
+                                @string.Format("{0:C}", Model.ChiTietHoaDons.Sum(chiTiet => chiTiet.TongTien))
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-end fw-bold">Chiết Khấu (%):</td>
+                            <td class="fw-bold text-center">
+                                @Model.ChietKhau %
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-end fw-bold">Tổng Cộng (Sau Chiết Khấu):</td>
+                            <td class="fw-bold text-center">
+                                @string.Format("{0:C}", Model.TongTienTruocCK - (Model.TongTienTruocCK * ((Model.ChietKhau ?? 0) / 100)))
+                            </td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </div>
+
+        <!-- Nút quay lại -->
+        <div class="mt-4 text-center">
+            <a asp-action="DSHoadon" class="btn btn-outline-secondary px-4">Quay Lại</a>
+        </div>
+    </div>
+</section>
+
+<!-- CSS Custom -->
+<style>
+    .invoice-detail h2 {
+        font-family: 'Georgia', serif;
+        text-shadow: 1px 1px 2px #d4d4d4;
+    }
+
+    .invoice-detail .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .invoice-detail .card-header {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .invoice-detail .table {
+        margin: 0;
+    }
+
+    .invoice-detail .table-hover tbody tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    .invoice-detail .btn-outline-secondary {
+        transition: all 0.3s ease-in-out;
+    }
+
+        .invoice-detail .btn-outline-secondary:hover {
+            background-color: #6c757d;
+            color: #fff;
+        }
+</style>
